@@ -1,6 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
+// One line: the setup is a universal 3 a.m. habit, the twist lands on the last three words.
 const line = "WARNING: This human replays embarrassing moments from 2009 nightly at 3 a.m. Do not shake, soothe, or remind them. There is no off switch.";
 const outDir = process.env.OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
